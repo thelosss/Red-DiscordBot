@@ -2,6 +2,9 @@ import os
 import sys
 from pathlib import Path
 
+from keep_alive import keep_alive
+keep_alive()
+
 from setuptools import find_namespace_packages, setup
 
 ROOT_FOLDER = Path(__file__).parent.absolute()
